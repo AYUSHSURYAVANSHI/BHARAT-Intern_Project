@@ -63,7 +63,22 @@ Iot-air-quality-monitoring-system-using-arduino-circuit
 Working Explanation:
 The MQ135 sensor can sense NH3, NOx, alcohol, Benzene, smoke, CO2 and some other gases, so it is perfect gas sensor for our Air Quality Monitoring Project. When we will connect it to Arduino then it will sense the gases, and we will get the Pollution level in PPM (parts per million). MQ135 gas sensor gives the output in form of voltage levels and we need to convert it into PPM. So for converting the output in PPM, here we have used a library for MQ135 sensor, it is explained in detail in “Code Explanation” section below.
 
-Sensor was giving us value of 90 when there was no gas near it and the safe level of air quality is 350 PPM and it should not exceed 1000 PPM. When it exceeds the limit of 1000 PPM, then it starts cause Headaches, sleepiness and stagnant, stale, stuffy air and if exceeds beyond 2000 PPM then it can cause increased heart rate and many other diseases.
+Sensor was giving us value of 90 when there was no gas near it and the safe level of air quality is 350 PPM and it should not exceed 1000 PPM. When it exceeds the limit of 1000 PPM, then it starts cause Headaches, sleepiness and stagnant, stale, stuffy air and if exceeds beyond 2000 PPM then it can cause increased heart rate and many other diseases.When the value will be less than 1000 PPM, then the LCD and webpage will display “Fresh Air”.  Whenever the value will increase 1000 PPM, then the buzzer will start beeping and the LCD and webpage will display “Poor Air, Open Windows”. If it will increase 2000 then the buzzer will keep beeping and the LCD and webpage will display “Danger! Move to fresh Air”.
 
-When the value will be less than 1000 PPM, then the LCD and webpage will display “Fresh Air”.  Whenever the value will increase 1000 PPM, then the buzzer will start beeping and the LCD and webpage will display “Poor Air, Open Windows”. If it will increase 2000 then the buzzer will keep beeping and the LCD and webpage will display “Danger! Move to fresh Air”.
+3.Health monitoring system- 
+IoT based patient health monitoring system is a generic term given to any medical equipment that has internet capability and can measure one or more health data of a patient who is connected to the device such as heartbeat, body temperature, blood pressure, ECG, steps etc. The equipment can record, transmit and alert if there is any abrupt change in the patient’s health.
+
+By this definition, it includes devices such as smart-watches, fitness trackers, smart-phones to expensive hospital equipment which can connect to internet.
+
+IoT based health monitoring system is used where the patient and heath expert(s) are at different locations. For example, a patient can stay at home and continue his/her routine life and a doctor can monitor patient’s heath. Based on the received data the heath expert can prescribe a best treatment or take an immediate action in case of an emergency.
+ircuit Diagram - ![Top Langs]
+
+An IoT based health monitoring system using ThingSpeak is a project that involves integrating various sensors and devices to gather and analyze health data of an individual. ThingSpeak is an open-source IoT platform that provides an easy-to-use interface to collect, analyze, and visualize data from IoT devices.
+
+The system can be designed to monitor various health parameters such as heart rate, blood pressure, body temperature, oxygen level, and many others. The data collected from the sensors can be transmitted to a ThingSpeak channel using a Wi-Fi module such as ESP8266 or ESP32. The data can be then analyzed using MATLAB or other programming languages supported by ThingSpeak.
+The system can be designed to send alerts or notifications to the individual or caregiver in case of abnormal readings or health issues. For instance, if the blood pressure reading goes beyond a certain threshold level, the system can send a notification to the individual and also to the healthcare provider for immediate attention.
+
+Moreover, the system can also be integrated with wearable devices such as smartwatches or fitness trackers to monitor the physical activity of an individual. This can help in analyzing the overall health of an individual and provide personalized recommendations for improvement.
+The ThingSpeak platform also provides visualization tools to create charts, graphs, and other visual representations of the health data. This can help in tracking the progress of an individual and providing insights into their health patterns.
+Overall, an IoT based health monitoring system using ThingSpeak can provide a comprehensive approach to monitor and manage an individual's health. It can enable early detection of health issues and provide timely intervention, thus improving the overall quality of life.
 
