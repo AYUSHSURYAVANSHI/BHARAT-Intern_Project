@@ -11,7 +11,7 @@ Servo motor
 16×2 LCD
 USB cable for uploading the code  
 
-automatic car parking Circuit Diagram is below  !Top Langs](https://github.com/AYUSHSURYAVANSHI/BHARAT-Intern_Project/commit/5557b9d6630c9ba629e31964d086f897f91e46a7)
+automatic car parking Circuit Diagram is below  ![Top Langs](https://github.com/AYUSHSURYAVANSHI/BHARAT-Intern_Project/commit/5557b9d6630c9ba629e31964d086f897f91e46a7)
 automatic car parkingBefore starting please check the address of the I2C module that you are using and modify the code accordingly.
 
 Then connect the 5 volts pin of the Arduino with the VCC pin of the I2C module, the red wire of the servo motor, and the VCC pin of both the IR sensors.
