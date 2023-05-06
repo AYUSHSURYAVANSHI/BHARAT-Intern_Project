@@ -71,7 +71,7 @@ IoT based patient health monitoring system is a generic term given to any medica
 By this definition, it includes devices such as smart-watches, fitness trackers, smart-phones to expensive hospital equipment which can connect to internet.
 
 IoT based health monitoring system is used where the patient and heath expert(s) are at different locations. For example, a patient can stay at home and continue his/her routine life and a doctor can monitor patient’s heath. Based on the received data the heath expert can prescribe a best treatment or take an immediate action in case of an emergency.
-ircuit Diagram - ![Top Langs]
+ircuit Diagram - ![Top Langs](https://github.com/AYUSHSURYAVANSHI/BHARAT-Intern_Project/commit/978dc891a0f1bc91acfd5b7f089fe6fec828ff58)
 
 An IoT based health monitoring system using ThingSpeak is a project that involves integrating various sensors and devices to gather and analyze health data of an individual. ThingSpeak is an open-source IoT platform that provides an easy-to-use interface to collect, analyze, and visualize data from IoT devices.
 
