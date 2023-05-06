@@ -9,9 +9,9 @@ Arduino UNO
 Two IR sensors
 Servo motor
 16×2 LCD
-USB cable for uploading the code
+USB cable for uploading the code  
 
-automatic car parking Circuit Diagramis below
+automatic car parking Circuit Diagram is below  ![Top Langs](https://github-readme-03333-1536x1053.jpg)
 automatic car parkingBefore starting please check the address of the I2C module that you are using and modify the code accordingly.
 
 Then connect the 5 volts pin of the Arduino with the VCC pin of the I2C module, the red wire of the servo motor, and the VCC pin of both the IR sensors.
